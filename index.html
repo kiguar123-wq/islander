@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Islander studio, marque streetwear premium et artistique. Collection ete, shop, accessoires et pieces lifestyle."
+    />
+    <title>Islander studio | Premium Streetwear</title>
+    <link rel="preload" href="styles.css" as="style" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="Islander studio home">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="mark-line"></span>
+          <span class="mark-i">I</span>
+          <span class="mark-line lagoon"></span>
+        </span>
+        <span class="brand-name">ISLANDER STUDIO</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navigation principale">
+        <a href="#home" data-i18n="navHome">Accueil</a>
+        <div class="nav-item-dropdown">
+          <a href="shop.html" data-i18n="navShop">Shop</a>
+          <div class="dropdown-menu">
+            <a href="shop.html?filter=tops" data-i18n="filterTops">Hauts</a>
+            <a href="shop.html?filter=bottoms" data-i18n="filterBottoms">Bas</a>
+            <a href="shop.html?filter=accessories" data-i18n="filterAccessories">Accessoires</a>
+          </div>
+        </div>
+        <a href="#about" data-i18n="navAbout">À propos</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="lang-toggle" type="button" data-lang-toggle aria-label="Switch language">
+          <span data-lang-current>FR</span>
+        </button>
+        <button class="icon-button" type="button" data-cart-open aria-label="Ouvrir le panier">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M7 8h10l-.7 11H7.7L7 8Z" />
+            <path d="M9 8a3 3 0 0 1 6 0" />
+          </svg>
+          <span class="cart-count" data-cart-count>0</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/Plage.jpg" alt="Plage de Nouvelle-Calédonie" />
+        </div>
+        <div class="hero-3d-container" aria-hidden="true">
+          <div class="floating-turtle">
+            <div class="turtle-shell"></div>
+            <div class="turtle-head"></div>
+            <div class="turtle-fin fin-a"></div>
+            <div class="turtle-fin fin-b"></div>
+            <div class="turtle-fin fin-c"></div>
+            <div class="turtle-fin fin-d"></div>
+          </div>
+        </div>
+        <div class="hero-copy reveal">
+          <p class="eyebrow" data-i18n="heroEyebrow">Drop 01 / Été 2026</p>
+          <h1>ISLANDER STUDIO</h1>
+          <p class="hero-subtitle" data-i18n="heroSubtitle">
+            Streetwear premium pour les chaleurs de ville, les fins de journée salées et les nuits qui commencent tôt.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="shop.html" data-i18n="heroPrimary">Shop la collection</a>
+            <a class="button ghost" href="#about" data-i18n="heroSecondary">Découvrir l'univers</a>
+          </div>
+        </div>
+        <div class="hero-meta" aria-label="Collection details">
+          <span data-i18n="heroMetaOne">Origine Calédonie</span>
+          <span data-i18n="heroMetaTwo">Capsule été</span>
+          <span data-i18n="heroMetaThree">Série limitée</span>
+        </div>
+      </section>
+
+      <section class="drop-note" aria-label="Collection annonce">
+        <div class="ticker">
+          <span data-i18n="ticker">Coastline Studies est maintenant disponible</span>
+          <span data-i18n="ticker">Coastline Studies est maintenant disponible</span>
+          <span data-i18n="ticker">Coastline Studies est maintenant disponible</span>
+        </div>
+      </section>
+
+      <section class="origin-band" aria-label="Origine Islander studio">
+        <div class="origin-copy reveal">
+          <p class="eyebrow" data-i18n="originEyebrow">Nouvelle-Calédonie</p>
+          <h2 data-i18n="originTitle">Lagon clair, coupes nettes.</h2>
+          <p data-i18n="originText">
+            Des paysages d'origine comme point de départ, puis une silhouette pensée pour la ville, l'été et le mouvement.
+          </p>
+        </div>
+        <div class="origin-gallery" aria-label="Paysages de Nouvelle-Calédonie">
+          <img class="origin-main reveal" src="assets/lagoon-pool.jpg" alt="Lagon et pins colonnaires en Nouvelle-Calédonie" />
+          <img class="origin-side reveal" src="assets/caledonia-ridge.jpg" alt="Relief calédonien avec vue sur la mer" />
+          <img class="origin-side reveal" src="assets/noumea-bay.jpg" alt="Baie en Nouvelle-Calédonie" />
+        </div>
+      </section>
+
+      <section class="section shop-teaser-section" id="shop-teaser">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="shopEyebrow">Nouvelle collection</p>
+          <h2 data-i18n="shopTitle">Coastline Studies</h2>
+          <p data-i18n="shopIntro">
+            Une garde-robe été complète : coupes fluides, textures légères, bijoux argentés et accessoires de ville.
+          </p>
+        </div>
+
+        <div class="teaser-showcase reveal">
+          <article class="teaser-card" style="--wash:#ebe4d7;--accent:#4d8f8b">
+            <div class="teaser-art">
+              <img src="assets/chemise 1.jpg" alt="Chemise Lagon Bleue" class="teaser-image" />
+            </div>
+            <div class="teaser-info">
+              <h3>Chemise Lagon Bleue</h3>
+              <span class="price">115 €</span>
+            </div>
+          </article>
+          <article class="teaser-card" style="--wash:#cdd4c9;--accent:#d95c46">
+            <div class="teaser-art">
+              <img src="assets/Chemise 4.jpg" alt="Chemise Lagon Rayée" class="teaser-image" />
+            </div>
+            <div class="teaser-info">
+              <h3>Chemise Lagon Rayée</h3>
+              <span class="price">120 €</span>
+            </div>
+          </article>
+          <article class="teaser-card" style="--wash:#cdd4c9;--accent:#4d8f8b">
+            <div class="teaser-art">
+              <img src="assets/Short 1.jpg" alt="Short Jorts Denim" class="teaser-image" />
+            </div>
+            <div class="teaser-info">
+              <h3>Short Jorts Denim</h3>
+              <span class="price">95 €</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="teaser-actions reveal">
+          <a class="button primary" href="shop.html">Découvrir toute la collection</a>
+        </div>
+      </section>
+
+      <section class="lookbook">
+        <div class="lookbook-panel reveal">
+          <p class="eyebrow" data-i18n="lookbookEyebrow">Looks d'été</p>
+          <h2 data-i18n="lookbookTitle">Du sable au studio.</h2>
+          <p data-i18n="lookbookText">
+            Des silhouettes pensées pour passer de l'après-midi dehors à la soirée en ville sans changer d'attitude.
+          </p>
+        </div>
+        <div class="lookbook-grid" aria-label="Looks Islander studio">
+          <article class="look reveal">
+            <img class="look-image" src="assets/street-jorts-look.jpg" alt="Look streetwear avec t-shirt blanc et jorts denim" />
+            <span>01</span>
+            <h3 data-i18n="lookOneTitle">Mesh tank, cargo short, bijoux argent</h3>
+          </article>
+          <article class="look reveal">
+            <img class="look-image" src="assets/striped-shirt-look.jpg" alt="Look streetwear avec chemise rayée et short denim" />
+            <span>02</span>
+            <h3 data-i18n="lookTwoTitle">Chemise crochet, pantalon nylon, ceinture cuir</h3>
+          </article>
+          <article class="look reveal">
+            <img class="look-image" src="assets/street-blue-shirt.jpg" alt="Look streetwear avec chemise bleue et short noir" />
+            <span>03</span>
+            <h3 data-i18n="lookThreeTitle">Terry polo, swim short, tote technique</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <video class="about-video-bg" autoplay muted loop playsinline preload="auto" aria-hidden="true">
+          <source src="assets/about-video.mp4" type="video/mp4" />
+        </video>
+        <div class="about-copy reveal">
+          <p class="eyebrow" data-i18n="aboutEyebrow">À propos</p>
+          <h2 data-i18n="aboutTitle">Une marque insulaire avec une énergie de ville.</h2>
+          <p data-i18n="aboutTextOne">
+            Islander part d'une idée simple : garder la liberté des vacances dans une silhouette que tu peux porter tous les jours.
+          </p>
+          <p data-i18n="aboutTextTwo">
+            Le logo associe un wordmark net à un I minimal, posé entre deux lignes comme un horizon et un lagon.
+          </p>
+        </div>
+        <div class="identity-board reveal" aria-label="Direction visuelle Islander studio">
+          <div class="wordmark">ISLANDER STUDIO</div>
+          <div class="monogram" aria-hidden="true">
+            <span class="mark-line"></span>
+            <span class="mark-i">I</span>
+            <span class="mark-line lagoon"></span>
+          </div>
+          <div class="palette">
+            <span style="--swatch:#101010"></span>
+            <span style="--swatch:#f4f0e8"></span>
+            <span style="--swatch:#4d8f8b"></span>
+            <span style="--swatch:#d95c46"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
+          <h2 data-i18n="contactTitle">Rester proche du prochain drop.</h2>
+          <p data-i18n="contactIntro">
+            Inscris-toi pour recevoir les dates de sortie, les précommandes et les premières pièces disponibles.
+          </p>
+        </div>
+
+        <form class="contact-form reveal" data-contact-form>
+          <label>
+            <span data-i18n="nameLabel">Nom</span>
+            <input type="text" name="name" autocomplete="name" required />
+          </label>
+          <label>
+            <span data-i18n="emailLabel">Email</span>
+            <input type="email" name="email" autocomplete="email" required />
+          </label>
+          <label class="full">
+            <span data-i18n="messageLabel">Message</span>
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <button class="button primary" type="submit" data-i18n="contactCta">Envoyer</button>
+          <p class="form-status" data-form-status role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <aside class="cart-drawer" data-cart-drawer aria-hidden="true" aria-label="Panier">
+      <div class="cart-head">
+        <div>
+          <p class="eyebrow" data-i18n="cartEyebrow">Panier</p>
+          <h2 data-i18n="cartTitle">Ta sélection</h2>
+        </div>
+        <button class="icon-button close" type="button" data-cart-close aria-label="Fermer le panier">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m6 6 12 12M18 6 6 18" />
+          </svg>
+        </button>
+      </div>
+      <div class="cart-items" data-cart-items></div>
+      <div class="cart-footer">
+        <div class="cart-total">
+          <span data-i18n="cartTotal">Total</span>
+          <strong data-cart-total>0 €</strong>
+        </div>
+        <button class="button primary full-button" type="button" data-checkout data-i18n="checkoutCta">Commander</button>
+        <p data-i18n="checkoutNote">Prototype local : paiement à connecter plus tard.</p>
+      </div>
+    </aside>
+    <button class="page-scrim" type="button" data-scrim aria-label="Fermer"></button>
+
+    <dialog class="quick-view" data-quick-view>
+      <button class="icon-button close modal-close" type="button" data-modal-close aria-label="Fermer">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m6 6 12 12M18 6 6 18" />
+        </svg>
+      </button>
+      <div class="modal-product-visual" data-modal-visual></div>
+      <div class="modal-copy">
+        <p class="eyebrow" data-modal-category></p>
+        <h2 data-modal-title></h2>
+        <p data-modal-desc></p>
+        <div class="size-picker" data-size-picker></div>
+        <div class="modal-row">
+          <strong data-modal-price></strong>
+          <button class="button primary" type="button" data-modal-add data-i18n="addToCart">Ajouter</button>
+        </div>
+      </div>
+    </dialog>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
