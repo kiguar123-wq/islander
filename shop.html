@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Islander studio, boutique officielle. Découvrez notre collection streetwear premium Coastline Studies."
+    />
+    <title>Shop | Islander studio</title>
+    <link rel="preload" href="styles.css" as="style" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="site-header is-scrolled" data-header>
+      <a class="brand" href="index.html#home" aria-label="Islander studio home">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="mark-line"></span>
+          <span class="mark-i">I</span>
+          <span class="mark-line lagoon"></span>
+        </span>
+        <span class="brand-name">ISLANDER STUDIO</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navigation principale">
+        <a href="index.html#home" data-i18n="navHome">Accueil</a>
+        <div class="nav-item-dropdown">
+          <a href="#" class="active" data-i18n="navShop">Shop</a>
+          <div class="dropdown-menu">
+            <a href="shop.html?filter=tops" data-i18n="filterTops">Hauts</a>
+            <a href="shop.html?filter=bottoms" data-i18n="filterBottoms">Bas</a>
+            <a href="shop.html?filter=accessories" data-i18n="filterAccessories">Accessoires</a>
+          </div>
+        </div>
+        <a href="index.html#about" data-i18n="navAbout">À propos</a>
+        <a href="index.html#contact" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="lang-toggle" type="button" data-lang-toggle aria-label="Switch language">
+          <span data-lang-current>FR</span>
+        </button>
+        <button class="icon-button" type="button" data-cart-open aria-label="Ouvrir le panier">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M7 8h10l-.7 11H7.7L7 8Z" />
+            <path d="M9 8a3 3 0 0 1 6 0" />
+          </svg>
+          <span class="cart-count" data-cart-count>0</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="shop-page-main" style="padding-top: var(--header-height);">
+      <section class="section shop-section">
+        <div class="section-heading reveal is-visible">
+          <p class="eyebrow" data-i18n="shopEyebrow">Collection Complète</p>
+          <h2 data-i18n="shopTitle">Coastline Studies</h2>
+          <p data-i18n="shopIntro">
+            Découvrez nos pièces d'été légères aux coupes fluides, alliant textures insulaires et silhouettes de rue.
+          </p>
+        </div>
+
+        <div class="shop-toolbar reveal is-visible">
+          <div class="filters" role="tablist" aria-label="Catégories produits">
+            <button class="filter active" type="button" data-filter="all" role="tab" aria-selected="true" data-i18n="filterAll">
+              Tout
+            </button>
+            <button class="filter" type="button" data-filter="tops" role="tab" aria-selected="false" data-i18n="filterTops">
+              Hauts
+            </button>
+            <button class="filter" type="button" data-filter="bottoms" role="tab" aria-selected="false" data-i18n="filterBottoms">
+              Bas
+            </button>
+            <button class="filter" type="button" data-filter="swim" role="tab" aria-selected="false" data-i18n="filterSwim">
+              Bain
+            </button>
+            <button class="filter" type="button" data-filter="accessories" role="tab" aria-selected="false" data-i18n="filterAccessories">
+              Accessoires
+            </button>
+          </div>
+
+          <label class="sort-control">
+            <span data-i18n="sortLabel">Trier</span>
+            <select data-sort>
+              <option value="featured" data-i18n="sortFeatured">Sélection</option>
+              <option value="priceAsc" data-i18n="sortPriceAsc">Prix croissant</option>
+              <option value="priceDesc" data-i18n="sortPriceDesc">Prix décroissant</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="product-grid" data-products aria-live="polite"></div>
+      </section>
+    </main>
+
+    <aside class="cart-drawer" data-cart-drawer aria-hidden="true" aria-label="Panier">
+      <div class="cart-head">
+        <div>
+          <p class="eyebrow" data-i18n="cartEyebrow">Panier</p>
+          <h2 data-i18n="cartTitle">Ta sélection</h2>
+        </div>
+        <button class="icon-button close" type="button" data-cart-close aria-label="Fermer le panier">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m6 6 12 12M18 6 6 18" />
+          </svg>
+        </button>
+      </div>
+      <div class="cart-items" data-cart-items></div>
+      <div class="cart-footer">
+        <div class="cart-total">
+          <span data-i18n="cartTotal">Total</span>
+          <strong data-cart-total>0 €</strong>
+        </div>
+        <button class="button primary full-button" type="button" data-checkout data-i18n="checkoutCta">Commander</button>
+        <p data-i18n="checkoutNote">Prototype local : paiement à connecter plus tard.</p>
+      </div>
+    </aside>
+    <button class="page-scrim" type="button" data-scrim aria-label="Fermer"></button>
+
+    <dialog class="quick-view" data-quick-view>
+      <button class="icon-button close modal-close" type="button" data-modal-close aria-label="Fermer">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m6 6 12 12M18 6 6 18" />
+        </svg>
+      </button>
+      <div class="modal-product-visual" data-modal-visual></div>
+      <div class="modal-copy">
+        <p class="eyebrow" data-modal-category></p>
+        <h2 data-modal-title></h2>
+        <p data-modal-desc></p>
+        <div class="size-picker" data-size-picker></div>
+        <div class="modal-row">
+          <strong data-modal-price></strong>
+          <button class="button primary" type="button" data-modal-add data-i18n="addToCart">Ajouter</button>
+        </div>
+      </div>
+    </dialog>
+
+    <script src="https://unpkg.com/three@0.128.0/build/three.min.js"></script>
+    <script src="assets/turtle3d.js" defer></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
