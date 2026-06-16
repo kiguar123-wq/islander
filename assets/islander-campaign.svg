@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Islander lagoon streetwear campaign</title>
+  <desc id="desc">Premium streetwear campaign scene with stylized models in front of a New Caledonia inspired lagoon, reef and sandbank.</desc>
+  <defs>
+    <linearGradient id="lagoon" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#08313a"/>
+      <stop offset=".28" stop-color="#0d6f78"/>
+      <stop offset=".62" stop-color="#64c8c3"/>
+      <stop offset="1" stop-color="#dff1df"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff5dc"/>
+      <stop offset=".62" stop-color="#dacd9f"/>
+      <stop offset="1" stop-color="#8fa486"/>
+    </linearGradient>
+    <linearGradient id="inkFade" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#060606" stop-opacity=".88"/>
+      <stop offset=".54" stop-color="#060606" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#060606" stop-opacity=".5"/>
+    </linearGradient>
+    <radialGradient id="reefA" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#f1e8b8" stop-opacity=".82"/>
+      <stop offset=".45" stop-color="#2ba69d" stop-opacity=".62"/>
+      <stop offset=".76" stop-color="#08313a" stop-opacity=".58"/>
+      <stop offset="1" stop-color="#08313a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="reefB" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".7"/>
+      <stop offset=".38" stop-color="#77d5cd" stop-opacity=".54"/>
+      <stop offset=".84" stop-color="#08313a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="paper" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="8" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 .16"/>
+      </feComponentTransfer>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="170%" height="180%">
+      <feDropShadow dx="0" dy="32" stdDeviation="20" flood-color="#000" flood-opacity=".34"/>
+    </filter>
+    <pattern id="mesh" width="18" height="18" patternUnits="userSpaceOnUse">
+      <path d="M0 9h18M9 0v18" stroke="#101010" stroke-opacity=".16" stroke-width="1"/>
+    </pattern>
+    <pattern id="halftone" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="1.5" fill="#f4f0e8" opacity=".28"/>
+      <circle cx="16" cy="16" r="1.3" fill="#f4f0e8" opacity=".22"/>
+    </pattern>
+  </defs>
+
+  <rect width="1800" height="1100" fill="url(#lagoon)"/>
+  <rect width="1800" height="1100" filter="url(#paper)" opacity=".7"/>
+
+  <g opacity=".95">
+    <ellipse cx="1205" cy="333" rx="560" ry="118" fill="url(#reefA)" transform="rotate(-14 1205 333)"/>
+    <ellipse cx="1330" cy="455" rx="360" ry="72" fill="#f4f0e8" opacity=".62" transform="rotate(-17 1330 455)"/>
+    <ellipse cx="1202" cy="348" rx="410" ry="58" fill="#08313a" opacity=".34" transform="rotate(-14 1202 348)"/>
+    <ellipse cx="1000" cy="238" rx="220" ry="55" fill="#ffffff" opacity=".32" transform="rotate(-14 1000 238)"/>
+    <ellipse cx="1534" cy="560" rx="230" ry="46" fill="#08313a" opacity=".22" transform="rotate(-18 1534 560)"/>
+  </g>
+
+  <g opacity=".82">
+    <ellipse cx="420" cy="264" rx="380" ry="105" fill="url(#reefB)" transform="rotate(18 420 264)"/>
+    <path d="M76 317c159-126 365-154 589-68 57 22 99 47 132 78-279 45-518 69-721-10Z" fill="#fff4d4" opacity=".62"/>
+    <path d="M128 320c154-84 352-92 579-17" fill="none" stroke="#08313a" stroke-opacity=".32" stroke-width="20" stroke-linecap="round"/>
+  </g>
+
+  <path d="M0 755c157-98 324-144 504-137 250 9 398 111 644 93 248-19 419-137 652-101v490H0V755Z" fill="url(#sand)" opacity=".96"/>
+  <path d="M0 786c182-64 333-66 514-24 208 48 378 96 616 48 232-47 394-146 670-101v391H0V786Z" fill="#101010" opacity=".26"/>
+  <path d="M1038 632c168-60 309-84 487-62 100 12 184 40 275 82v105c-244-64-448-47-657 24-141 48-270 65-414 28 63-72 162-128 309-177Z" fill="#f4f0e8" opacity=".84"/>
+
+  <g opacity=".58" fill="none" stroke-linecap="round">
+    <path d="M78 233h420M82 265h310M107 292h180" stroke="#f4f0e8" stroke-width="3" opacity=".42"/>
+    <path d="M1228 206c170-72 337-56 500 31M1225 240c130-34 275-28 438 18" stroke="#f4f0e8" stroke-width="4" opacity=".42"/>
+    <path d="M98 894c255-48 522 32 822-3 280-32 474-128 779-63" stroke="#f4f0e8" stroke-width="3" opacity=".35"/>
+  </g>
+
+  <g opacity=".8">
+    <path d="M1184 132h296v56h-296z" fill="#101010"/>
+    <path d="M1210 151h114M1344 151h86" stroke="#f4f0e8" stroke-width="7"/>
+    <path d="M102 630h250v48H102z" fill="#101010"/>
+    <path d="M126 646h80M225 646h88" stroke="#f4f0e8" stroke-width="6"/>
+    <path d="M1408 758h250v50h-250z" fill="#101010"/>
+    <path d="M1435 775h92M1545 775h70" stroke="#f4f0e8" stroke-width="6"/>
+  </g>
+
+  <rect width="1800" height="1100" fill="url(#inkFade)"/>
+  <rect x="0" y="0" width="1800" height="1100" fill="url(#halftone)" opacity=".45"/>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(950 252)">
+      <ellipse cx="170" cy="730" rx="166" ry="32" fill="#000" opacity=".3"/>
+      <path d="M136 160c-37 27-51 84-24 125 32 50 109 44 136-7 23-43 5-98-34-121-27-16-54-14-78 3Z" fill="#714a3d"/>
+      <path d="M112 96c60-62 158-23 167 49 7 52-17 86-48 107 7-43-8-78-47-96-33-15-67-5-93 27-16-28-15-63 21-87Z" fill="#090909"/>
+      <path d="M95 296c48-36 119-40 170-7l52 315H55l40-308Z" fill="#dfe9e3"/>
+      <path d="M107 315h166l-24 108H132l-25-108Z" fill="url(#mesh)"/>
+      <path d="M53 342 0 519l58 22 56-156-19-89-42 46Z" fill="#714a3d"/>
+      <path d="M307 338l78 162-50 33-85-138 15-106 42 49Z" fill="#714a3d"/>
+      <path d="M84 592h84l-16 253H83l1-253Z" fill="#0f2f33"/>
+      <path d="M184 592h88l35 253h-71l-49-181-22 181H98l86-253Z" fill="#0f2f33"/>
+      <path d="M92 590h183l12 67H83l9-67Z" fill="#101010"/>
+      <path d="M73 847h91l10 36H45c1-21 10-31 28-36Z" fill="#101010"/>
+      <path d="M219 847h90l15 36H198c0-20 8-31 21-36Z" fill="#101010"/>
+      <circle cx="296" cy="474" r="15" fill="#ded56a"/>
+    </g>
+
+    <g transform="translate(604 202)">
+      <ellipse cx="190" cy="780" rx="178" ry="35" fill="#000" opacity=".32"/>
+      <path d="M156 172c-36 47-17 117 37 132 43 12 87-19 99-65 14-58-25-107-75-109-25-1-47 8-61 42Z" fill="#59372e"/>
+      <path d="M132 102c49-66 158-57 195 15 28 53 8 113-37 153 2-61-27-97-82-101-44-4-72 20-86 58-24-39-19-85 10-125Z" fill="#090909"/>
+      <path d="M82 328c50-47 164-49 218-2l39 205H50l32-203Z" fill="#f4f0e8"/>
+      <path d="M138 307h96l-47 80-49-80Z" fill="#d95c46"/>
+      <path d="M58 354-7 575l60 23 73-193-44-78-24 27Z" fill="#59372e"/>
+      <path d="M318 352l79 204-59 25-77-177 39-80 18 28Z" fill="#59372e"/>
+      <path d="M62 536h99l-10 310H78L62 536Z" fill="#101010"/>
+      <path d="M174 536h97l41 310h-77l-54-207-8 207h-72l73-310Z" fill="#101010"/>
+      <path d="M63 532h211l13 67H51l12-67Z" fill="#d95c46"/>
+      <path d="M72 845h96l11 37H44c1-21 11-32 28-37Z" fill="#101010"/>
+      <path d="M230 845h96l15 37H207c1-21 10-32 23-37Z" fill="#101010"/>
+      <path d="M169 414h31v88h-31z" fill="#4d8f8b"/>
+    </g>
+
+    <g transform="translate(1328 322)">
+      <ellipse cx="135" cy="650" rx="134" ry="29" fill="#000" opacity=".28"/>
+      <path d="M114 136c-31 34-21 89 20 109 38 18 87-5 102-45 18-48-11-96-56-105-27-5-49 6-66 41Z" fill="#8b604b"/>
+      <path d="M103 75c49-44 121-28 146 22 14 28 9 61-12 90-15-38-44-58-81-54-29 3-50 20-63 49-17-35-13-80 10-107Z" fill="#090909"/>
+      <path d="M70 266c38-34 117-37 158-6l41 158H40l30-152Z" fill="#ded56a"/>
+      <path d="M44 290-5 436l49 25 50-139-24-62-26 30Z" fill="#8b604b"/>
+      <path d="M248 288l61 145-46 29-63-131 28-71 20 28Z" fill="#8b604b"/>
+      <path d="M52 417h80l-20 216H48l4-216Z" fill="#d95c46"/>
+      <path d="M139 417h78l27 216h-66l-43-152-13 152H63l76-216Z" fill="#d95c46"/>
+      <path d="M53 417h166l9 59H46l7-59Z" fill="#f4f0e8"/>
+      <path d="M42 634h83l9 32H20c1-18 8-27 22-32Z" fill="#101010"/>
+      <path d="M171 634h83l13 32H150c1-18 8-27 21-32Z" fill="#101010"/>
+      <path d="M103 300h86v37h-86z" fill="#101010" opacity=".74"/>
+    </g>
+  </g>
+</svg>
